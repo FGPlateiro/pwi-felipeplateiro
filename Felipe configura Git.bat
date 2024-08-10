@@ -1,5 +1,10 @@
 echo OFF
 
+echo --- Retirando Usuario Github
+
+github config --global --unset-all user.mail
+github config --global --unset.all user.name
+
 echo --- configurando usuario GITHUB
 echo
 echo
