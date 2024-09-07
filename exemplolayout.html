@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: cornflowerblue;
+        }
+
+        .cabec {
+            width: 250px;
+            margin: auto;
+            font-size: 50px;
+            color: gold;
+        }
+
+        nav {
+            float: left;
+            width: 23%;
+            height: 300px;
+            background-color: khaki;
+            padding: 10px;
+           
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 30px;
+            width: 70%;
+            background-color: lightblue;
+            height: auto;
+        }
+
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        footer {
+            background-color: gold;
+            padding: 10px;
+            text-align: center;
+            color: cornflowerblue;
+          
+
+        }
+
+        section: {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        h1 {
+            color: gold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+
+        p {
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .refri {
+            background-color: rosybrown;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="cabec">
+        <h2>Bebidas</h2>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">Refrigerantes</a></li>
+                <li><a href="#">Sucos</a></li>
+                <li><a href="#">cervejas</a></li>
+                <li><a href="#">Drinks</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h1>Refrigerantes</h1>
+            <div class="refri"><p>Nuka-Cola 
+                <br>
+                 <img src ="images/nukacola.jpg" width="50px" height="50px">
+            </div>
+                <br> 
+               <div class="refri"> Nuka-Cola-Quantum
+                <br>
+                <img src ="images/nuka-quantum.jpg" width="50px" height="50px">
+                </div>
+                <br>
+                 <div class="refri">Nuka-cola-Chery
+                 <br>
+                 <img src ="images/nuka-cola-cherry.jpg" width="50px" height="50px">
+                 </div>
+                 <br>
+            </p>
+            <h1>Sucos</h1>
+            <p>Abacaxi com Hortelã <br> Maçã<br> Melancia <br></p>
+            <h1> Cervejas</h1>
+            <p>Heineken <br> Baden-Baden <br> Stella Artois <br>Roleta Russa</p>
+            <h1>Drinks</h1>
+            <p> Atomic Bomb <br> Vault Drink <br> Diamond City <br> Destroçador</p>
+        </article>
+    </section>
+    <div>
+        <footer>
+            <h3> Página desenvolvida por Felipe Gomes Plateiro</h3>
+        </footer>
+    </div>
+</body>
+
+</html>
