@@ -1,7 +1,7 @@
 let a,b,c,soma
 
 a = 25
-b = 35
+b = 50
 c = 80
 
 soma = a + b

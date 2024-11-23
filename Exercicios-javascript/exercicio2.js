@@ -1,6 +1,6 @@
 let numero, verificador
 
-numero = -50
+numero = 5
 
 verificador = numero/2
 
